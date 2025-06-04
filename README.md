@@ -57,4 +57,71 @@ Sinh viên:
 ![image](https://github.com/user-attachments/assets/eab1e389-8bfa-4914-9f9c-2d0292c75a1f)
 
 
+### Dặt tả và thiết kế 
+#### 1. Use Case chính:
 
+![image](https://github.com/user-attachments/assets/dc58dac8-7952-4fd1-9680-c35772d32795)
+
+#### 2. Flow
+2.1 Activity Flow
+
+[Start]
+   ↓
+[Đăng nhập hệ thống]
+   ↓
+[Chọn chức năng "Quản lý sinh viên"]
+   ↓
++-------------------------+
+| Chọn thao tác:         |
+| - Thêm sinh viên       |
+| - Sửa thông tin        |
+| - Xóa sinh viên        |
+| - Tìm kiếm sinh viên   |
++-------------------------+
+   ↓
+[Nhập thông tin cần thiết]
+   ↓
+[Hệ thống kiểm tra dữ liệu hợp lệ]
+   ↓
+[Hệ thống cập nhật dữ liệu CSDL]
+   ↓
+[Thông báo kết quả (Thành công / Lỗi)]
+   ↓
+[Quay lại danh sách sinh viên hoặc Thoát]
+   ↓
+[End]
+
+2.2 Sequence Flow
+
+Tác nhân (Admin)        Hệ thống             Cơ sở dữ liệu
+        |                            |                         |
+        |-------Đăng nhập----------->|                         |
+        |                            |                         |
+        |                            |---Xác thực------------->|
+        |                            |<--Kết quả xác thực------|
+        |                            |                         |
+        |--Chọn "Thêm sinh viên"---->|                         |
+        |--Nhập thông tin SV-------->|                         |
+        |                            |--Kiểm tra thông tin---->|
+        |                            |<----Hợp lệ / lỗi--------|
+        |                            |--Lưu thông tin SV------>|
+        |                            |<-----Xác nhận lưu-------|
+        |<------Thông báo OK---------|                         |
+        |                            |                         |
+
+#### 3. Hướng đối tượng 
++----------------+       +------------------+       +--------------+
+|    SinhVien    |<>---->|     LopHoc       |<>---->|    MonHoc    |
++----------------+       +------------------+       +--------------+
+| - maSV         |       | - maLop          |       | - maMon      |
+| - hoTen        |       | - tenLop         |       | - tenMon     |
+| - ngaySinh     |       | - danhSachSV     |       | - soTinChi   |
++----------------+       +------------------+       +--------------+
+
++----------------+
+|     Diem       |
++----------------+
+| - maSV         |
+| - maMon        |
+| - diemSo       |
++----------------+
