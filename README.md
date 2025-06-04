@@ -8,14 +8,6 @@ Thành viên :
 - Đinh Xuân Tài
 - Nguyễn Phan Quang Sơn
 
-Github nhóm thực hành Kỹ thuật phần mềm lớp N04
-## Tên đề tài : phần mềm quản lý sinh viên đơn giản 
-
-Thành viên : 
-- Trần Văn Thành
-- Đinh Xuân Tài
-- Nguyễn Phan Quang Sơn
-
 ## Phân tích yêu cầu 
 ### Vấn đề bài toán 
 Dân số việt nam tăng cao đột biến những năm 2000 đến nay lượng sinh viên vào các trường cũng tăng mạnh.
