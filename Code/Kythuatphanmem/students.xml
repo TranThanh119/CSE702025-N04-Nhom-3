@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students><student>
+        <name>Lê Hoàng Nam</name>
+        <birthDay>3</birthDay>
+        <birthMonth>2</birthMonth>
+        <birthYear>2010</birthYear>
+        <phone>0900443544</phone>
+        <gender>male</gender>
+        <class>11</class>
+        <score>9.0</score>
+    </student><student>
+        <name>Nguyễn Linh</name>
+        <birthDay>3</birthDay>
+        <birthMonth>2</birthMonth>
+        <birthYear>2010</birthYear>
+        <phone>09004444444</phone>
+        <gender>female</gender>
+        <class>11</class>
+        <score>4</score>
+    </student></students>
