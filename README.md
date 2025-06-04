@@ -39,3 +39,5 @@ Sinh viên:
 - Đăng nhập hệ thống.
 - Xem thông tin cá nhân, điểm, thời khóa biểu.
 - Cập nhật thông tin liên hệ (nếu được phép).
+
+![image](https://github.com/user-attachments/assets/b7471291-2739-4132-80a4-fcb67219df9d)
