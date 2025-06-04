@@ -11,7 +11,7 @@ Thành viên :
 ## Phân tích yêu cầu 
 ### Vấn đề bài toán 
 Dân số việt nam tăng cao đột biến những năm 2000 đến nay lượng sinh viên vào các trường cũng tăng mạnh.
-Theo nguồn tin Số lượng sinh viên Đại học Phenikaa
+Theo nguồn tin số lượng sinh viên Đại học Phenikaa
 - Năm học 2021–2022: 5.493 sinh viên
 - Năm học 2022–2023: 9.583 sinh viên → Tăng 74,4% so với năm học trước đó 
 - Năm học 2023–2024: Hiện chưa có số liệu chính thức được công bố. Tuy nhiên, theo thông tin tuyển sinh năm 2023, Trường Đại học Phenikaa đặt chỉ tiêu tuyển sinh cho 7.668 sinh viên ở 41 ngành đào tạo .
@@ -21,7 +21,7 @@ Qua đó ta có thể thấy việc quản lý là một vấn đề cấp thi�
 Ngày nay cồng nghệ thông tin phát triển mạnh mẽ những phần mềm quản lý không còn xa lạ với chúng ta nữa. Phần mềm quản lý sinh viên rất quen thuộc, được xây dựng nhằm hỗ trợ các trường đại học hoặc cơ sở đào tạo quản lý thông tin sinh viên một cách hiệu quả, chính xác, tiện lợi, tự động hóa và giảm đáng kể nhân lực. Hệ thống sẽ giúp lưu trữ, tra cứu, cập nhật các thông tin như hồ sơ sinh viên, quá trình học tập, điểm số, lớp học, khóa học, và các hoạt động liên quan khác.
 
 ### Tác nhân người dùngg 
-- Các tác nhân chính tương tác với hệ thống:
+Các tác nhân chính tương tác với hệ thống :
 - Quản trị viên: Quản lý toàn bộ hệ thống, tạo tài khoản người dùng, phân quyền.
 - Giảng viên: Nhập điểm, theo dõi quá trình học tập của sinh viên.
 - Sinh viên: Tra cứu thông tin cá nhân, điểm số, thời khóa biểu, kết quả học tập.
