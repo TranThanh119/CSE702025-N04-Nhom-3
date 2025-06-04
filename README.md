@@ -40,17 +40,20 @@ Sinh viên:
 - Xem thông tin cá nhân, điểm, thời khóa biểu.
 - Cập nhật thông tin liên hệ (nếu được phép).
 
-UML dự án 
+### UML dự án 
 1. UML component diagram
 ![image](https://github.com/user-attachments/assets/b7471291-2739-4132-80a4-fcb67219df9d)
 
 2. Quản lý sinh viên
+
 ![image](https://github.com/user-attachments/assets/2fbb1989-4327-4c7b-9c90-424fc302808e)
 
 3. quản lý điểm
+
 ![image](https://github.com/user-attachments/assets/69bb00a7-f69a-439d-b55f-2bd3b5016a74)
 
 4. quản lý môn học
+
 ![image](https://github.com/user-attachments/assets/eab1e389-8bfa-4914-9f9c-2d0292c75a1f)
 
 
