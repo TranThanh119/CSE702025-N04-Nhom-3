@@ -40,7 +40,13 @@ Sinh viên:
 - Xem thông tin cá nhân, điểm, thời khóa biểu.
 - Cập nhật thông tin liên hệ (nếu được phép).
 
-### UML dự án 
+
+### Dặt tả và thiết kế 
+#### 1. Use Case chính:
+
+![image](https://github.com/user-attachments/assets/dc58dac8-7952-4fd1-9680-c35772d32795)
+
+#### 2. Flow
 1. UML component diagram
 ![image](https://github.com/user-attachments/assets/b7471291-2739-4132-80a4-fcb67219df9d)
 
@@ -55,59 +61,6 @@ Sinh viên:
 4. quản lý môn học
 
 ![image](https://github.com/user-attachments/assets/eab1e389-8bfa-4914-9f9c-2d0292c75a1f)
-
-
-### Dặt tả và thiết kế 
-#### 1. Use Case chính:
-
-![image](https://github.com/user-attachments/assets/dc58dac8-7952-4fd1-9680-c35772d32795)
-
-#### 2. Flow
-2.1 Activity Flow
-
-[Start]
-   ↓
-[Đăng nhập hệ thống]
-   ↓
-[Chọn chức năng "Quản lý sinh viên"]
-   ↓
-+-------------------------+
-| Chọn thao tác:         |
-| - Thêm sinh viên       |
-| - Sửa thông tin        |
-| - Xóa sinh viên        |
-| - Tìm kiếm sinh viên   |
-+-------------------------+
-   ↓
-[Nhập thông tin cần thiết]
-   ↓
-[Hệ thống kiểm tra dữ liệu hợp lệ]
-   ↓
-[Hệ thống cập nhật dữ liệu CSDL]
-   ↓
-[Thông báo kết quả (Thành công / Lỗi)]
-   ↓
-[Quay lại danh sách sinh viên hoặc Thoát]
-   ↓
-[End]
-
-2.2 Sequence Flow
-
-Tác nhân (Admin)        Hệ thống             Cơ sở dữ liệu
-        |                            |                         |
-        |-------Đăng nhập----------->|                         |
-        |                            |                         |
-        |                            |---Xác thực------------->|
-        |                            |<--Kết quả xác thực------|
-        |                            |                         |
-        |--Chọn "Thêm sinh viên"---->|                         |
-        |--Nhập thông tin SV-------->|                         |
-        |                            |--Kiểm tra thông tin---->|
-        |                            |<----Hợp lệ / lỗi--------|
-        |                            |--Lưu thông tin SV------>|
-        |                            |<-----Xác nhận lưu-------|
-        |<------Thông báo OK---------|                         |
-        |                            |                         |
 
 #### 3. Hướng đối tượng 
 +----------------+       +------------------+       +--------------+
