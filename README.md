@@ -78,3 +78,21 @@ Sinh viên:
 | - maMon        |
 | - diemSo       |
 +----------------+
+
+#### 4. UI flow 
+[Login]
+   ↓
+[Dashboard]
+   ├─> [QL Sinh viên]
+   │     ├─> Thêm
+   │     ├─> Sửa
+   │     └─> Xóa / Tìm
+   ├─> [QL Môn học]
+   │     ├─> Thêm
+   │     ├─> Sửa
+   │     └─> Xóa / Tìm
+   └─> [QL Điểm]
+         ├─> Nhập điểm
+         ├─> Cập nhật điểm
+         └─> Xem theo SV / Môn
+
