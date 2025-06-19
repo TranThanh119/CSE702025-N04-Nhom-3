@@ -96,3 +96,14 @@ Sinh viên:
          ├─> Cập nhật điểm
          └─> Xem theo SV / Môn
 
+#### 5. Kiểm tra và đánh giá 
+
+Chức năng	                       Kết quả                       	Ghi chú
+Đăng nhập	                         Đạt                   	Hoạt động ổn định
+Thêm/sửa/xóa sinh viên	             Đạt                  	Dữ liệu được cập nhật đúng
+Quản lý môn học	                   Đạt	                  Có thể thao tác dễ dàng
+Nhập và tính điểm	                   Đạt	                  Tính toán điểm chính xác
+Xếp loại học lực	                   Đạt	                  Phân loại đúng theo điểm tổng kết
+Giao diện người dùng	                Tốt	                  Thân thiện, dễ sử dụng
+Tốc độ phản hồi	                   Tốt	                  Không gặp tình trạng chậm, lag
+Lỗi phát sinh	                   Không đáng kể           	Không có lỗi nghiêm trọng nào
